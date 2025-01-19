@@ -53,7 +53,6 @@ h3{
 }
 @media (max-width: 767px) {
     .projects{
-        margin-left: 12px;
         margin: 0 auto;
         width: 351px;
     }
