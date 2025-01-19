@@ -1,0 +1,111 @@
+@import url(../styles/header.css);
+@import url(../styles/intro.css);
+@import url(../styles/projects.css);
+@import url(../styles/services.css);
+@import url(../styles/footer.css);
+@import url(../styles/buttons.css);
+@import url(../styles/reviews.css);
+@import url(../styles/gallery.css);
+@import url(../styles/contacts.css);
+
+html{
+    scroll-behavior: smooth;
+    letter-spacing: -0.03em;
+}
+body{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+main{
+    background: #ffffff;
+}
+.wrapper_studio{
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.about_h2{
+    padding-top: 141px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.text-about{
+    max-width: 1048px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+}
+.button-services{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.section{
+    margin: 0 auto;
+    width: 1150px;
+}
+/* .container{
+    width: 1150px;
+    padding-left: ;
+} */
+@media (max-width: 1199px) {
+    .about-studio{
+        padding-left: 17px;
+        width: 693px;
+    }
+    .about_h2{
+        padding-top: 120px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+    .text-about{
+        padding-bottom: 30px;
+        font-size: 35px;
+        line-height: 48px;
+        letter-spacing: -0.03em;
+    }
+}
+@media (max-width: 767px) {
+    .wrapper_studio{
+        margin-bottom: 0;
+        padding-bottom: 80px;
+    }
+    .about-studio{
+        padding-left: 12px;
+        width: 346px;
+    }
+    .about_2{
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+    .text-about{
+        padding-bottom: 30px;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+    }
+    .button-services{
+        padding: 14.5px 27px;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 4px;
+    }
+}
